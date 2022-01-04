@@ -18,6 +18,6 @@ public class QueueService implements Service {
                     message == null ? "" : message,
                     "200");
         }
-        return new Resp(null, null);
+        return new Resp("", "409");
     }
 }
